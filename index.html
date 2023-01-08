@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE - 1</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="/main.js"></script>
+</head>
+<body>
+
+    <div>
+        <img src="/img/Logo.png" alt="logoAlura" class="logo">
+    </div>
+
+    <form>
+        <div>
+            <textarea class = "inputToEncript" id="inputToEncript" placeholder="Ingrese el texto aqui" autofocus></textarea>
+        </div>
+    </form>
+    <div>
+        <img src="/img/Vector.png" alt="attention" class="attention">
+        <p class="attention_text">Solo letras minusculas y sin acentos</p>
+    </div>
+    <div class = "btnEnc-Des">
+        <button class = "btnEncript" onclick="encript()">Encriptar</button>
+
+        <button class = "btnDesencript"  onclick="desencript()">Desencriptar</button>
+    </div>
+    <div>
+        <textarea class = "inputEncript" name="" id="inputToDesencript" ></textarea>
+        <img src="/img/Muñeco.png" alt="muñeco" class="muñeco" id="muñeco">
+        <p class="muñeco_texto" id="muñeco_texto">Ningun mensaje encontrado</p>
+        <div class="toCopy">
+            <img src="/img/copy.png" class="copy" alt="copy" onclick="copy()">
+            <p class="p_copy">Copiar</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="p_footer">&copy 2023 Paula Adgi Romano</p>
+    </footer>
+</body>
+</html>
