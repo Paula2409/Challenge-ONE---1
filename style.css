@@ -34,14 +34,14 @@ body{
     position: absolute;
     width: 17px;
     height: 17px;
-    left: 205px;
+    left: 255px;
     top: 535px;}
 
 .attention_text{
     position: absolute;
     width: 263px;
     height: 19px;
-    left: 224px;
+    left: 274px;
     top: 519px;
     font-family: 'Inter';
     font-style: italic;
@@ -55,7 +55,7 @@ body{
     position: absolute;
     width: 600px;
     height: 46px;
-    left: 199px;
+    left: 239px;
     top: 559px;
     background: #0A3871;
     border-radius: 20px;
@@ -120,7 +120,7 @@ body{
     position: absolute;
     width: 292px;
     height: 28px;
-    left: 700px;
+    left: 740px;
     top: 940px;
     font-family: 'Inter';
     font-style: italic;
@@ -160,7 +160,7 @@ body{
     position: absolute;
     width: 200px;
     height: 16px;
-    left: 720px;
+    left: 770px;
     top: 1002px;
     font-family: 'Inter';
     font-style: italic;
@@ -171,250 +171,80 @@ body{
 }
 
 @media screen and (max-width: 768px){
+
     body{
         width: 768px;
         height: 1174px;
     }
 
-    .attention{
-        position: absolute;
-        width: 17px;
-        height: 17px;
-        left: 153px;
-        top: 687px;}
-    
-    .attention_text{
-        position: absolute;
-        width: 263px;
-        height: 19px;
-        left: 175px;
-        top: 673px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 100;
-        font-size: 14px;
-        color: #000000;
-    }
-
-    .btnEncript{
-        position: absolute;
-        width: 225px;
-        height: 45px;
-        left: 142px;
-        top: 709px;
-        background: #0A3871;
-        border-radius: 20px;      
-        color: #F0F7FF;
-        font-weight: bold;
-        box-shadow: 5px 5px grey;
-    }
-
-    .btnDesencript{
-        position: absolute;
-        width: 225px;
-        height: 45px;
-        left: 400px;
-        top: 709px;
-        border-radius: 20px;
-        background: #0A3871;
-        border-radius: 20px;    
-        color: #F0F7FF;
-        font-weight: bold;
-        box-shadow: 5px 5px grey;
-
-    }
-
-    .inputEncript{
-        box-sizing: border-box;
-        position: absolute;
-        width: 625px;
-        height: 346px;
-        left: 78px;
-        top: 768px;
-        background: #F0F7FF;
-        mix-blend-mode: normal;
-        border: 1px solid #000000;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 69px;    
-        outline: none;
-        padding: 20px 50px 5px 50px;
-        resize: none;
-        border: none;
-        font-size: 35px;
-    
-    }
-
-    .copy{
-        position: absolute;
-        width: 31px;
-        height: 30px;
-        left: 625px;
-        top: 799px;
-    }
-
-    .muñeco{
-        position: absolute;
-        width: 242px;
-        height: 244px;
-        left: calc(50% - 242px/2);
-        top: 799px;   
-    }
-    
-    .muñeco_texto{
-        position: absolute;
-        width: 258px;
-        height: 48px;
-        left: 285px;
-        top: 1040px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 100;
-        font-size: 20px;
-        line-height: 24px;
-        color: #000000;
-    }
-
-    .p_footer{
-        position: absolute;
-        width: 50%;
-        height: 16px;
-        left: 325px;
-        top: 1120px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 200;
-        font-size: 13px;
-        line-height: 16px;
-        color: #000000;
-    }
-}
-
-@media only screen and (max-width: 375px){
-    body{
-        width: 375px;
-        height: 933px;
-    }
-    
     .logo{
-        position: absolute;
-        width: 176px;
-        height: 85px;
-        left: 0px;
-        top: 20px;
-    }
-    
-    .attention{
-        position: absolute;
-        width: 17px;
-        height: 17px;
-        left: 118px;
-        top: 705px;}
-    
-    .attention_text{
-        position: absolute;
-        width: 263px;
-        height: 19px;
-        left: 140px;
-        top: 690px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 100;
-        font-size: 14px;
-        color: #000000;
+        width: 120px;
+        
     }
 
-    .btnEncript{
-        position: absolute;
-        width: 135px;
-        height: 45px;
-        left: 120px;
-        top: 730px;
-        background: #0A3871;
-        border-radius: 20px;      
-        color: #F0F7FF;
-        font-weight: bold;
-        box-shadow: 5px 5px grey;
-        font-size: 16px;
-
+    .btnEnc-Des, .inputToEncript, .inputEncript{
+        width: 390px;
+        left: 5px;
+        font-size: 20px;
     }
 
-    .btnDesencript{
-        position: absolute;
-        width: 135px;
-        height: 45px;
-        left: 265px;
-        top: 730px;
-        border-radius: 20px;
-        background: #0A3871;
-        border-radius: 20px;    
-        color: #F0F7FF;
-        font-weight: bold;
-        box-shadow: 5px 5px grey;
-        font-size: 16px;
+    .inputToEncript{
+        top: 100px;
+        height: 370px;
+        left: 25px;
+        width: 290px;
 
     }
 
     .inputEncript{
-        box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 446px;
-        left: 78px;
-        top: 800px;
-        background: #F0F7FF;
-        mix-blend-mode: normal;
-        border: 1px solid #000000;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 69px;    
-        outline: none;
-        padding: 20px 50px 5px 50px;
-        resize: none;
-        border: none;
-        font-size: 25px;
-    
+        top: 580px;
+        height: 550px;
+        width: 290px;
     }
 
-    .copy{
-        position: absolute;
-        width: 31px;
-        height: 30px;
-        left: 370px;
-        top: 1200px;
+    .attention{
+        left: 70px;
+        top: 510px;
+    }
+
+    .attention_text{
+        left: 90px;
+        top: 495px;
+        font-size: 14px;
+    }
+
+    .btnDesencript, .btnEncript{
+        width: 120px;
+        font-size: 17px;
+        top: 530px;
+    }
+
+    .btnEncript{
+        left: 60px;
+    }
+
+    .btnDesencript{
+        left: 200px;
     }
 
     .muñeco{
-        position: absolute;
-        width: 200px;
-        height: 204px;
-        left: 150px;
-        top: 900px;   
+        left: 100px;
+        width: 215px;
     }
-    
+
     .muñeco_texto{
-        position: absolute;
-        width: 258px;
-        height: 48px;
-        left: 160px;
-        top: 1150px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 100;
-        font-size: 20px;
-        color: #000000;
+        left: 100px;
+        top: 900px;
     }
 
     .p_footer{
-        position: absolute;
-        width: 50%;
-        height: 16px;
-        left: 210px;
-        top: 1247px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 200;
-        font-size: 13px;
-        line-height: 16px;
-        color: #000000;
+        left: 150px;
+        font-size: 9px;
+        top: 1145px;
     }
-}
+
+    .copy{
+        left: 345px;
+    }
+
 
