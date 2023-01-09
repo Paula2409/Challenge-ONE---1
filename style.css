@@ -215,8 +215,9 @@ body{
 
     .btnDesencript, .btnEncript{
         width: 120px;
-        font-size: 17px;
+        font-size: 15px;
         top: 530px;
+        height: 40px;
     }
 
     .btnEncript{
