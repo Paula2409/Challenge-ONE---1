@@ -7,7 +7,7 @@ function encript(){
         alert("El mensaje no puede contener tildes")
     } else if (input == ""){
         alert('El campo no puede estar vacio');
-    } else if (document.getElementById("inputToEncript").value.match(/^[A-Za-z ]*$/)){
+    } else if (document.getElementById("inputToEncript").value.match(/^[A-Za-z ]/)){
     
         let inputEnc = input.replaceAll('e', 'enter')
         .replaceAll('i','imes')
